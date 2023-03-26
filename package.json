@@ -1,23 +1,51 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "kickstartingnodejs",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
-  "main": "app.js",
+  "description": "",
+  "main": "routes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
+    "start": "nodemon app",
     "start-server": "node app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priti73/Sharpnercode.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priti73/Sharpnercode/issues"
+  },
+  "homepage": "https://github.com/priti73/Sharpnercode#readme",
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "node-env-run": "^4.0.2",
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.7.4",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "pug": "^2.0.3"
+    "@sendgrid/mail": "^7.7.0",
+    "@sendinblue/client": "^3.2.2",
+    "add": "^2.0.6",
+    "aws-sdk": "^2.1323.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "cron": "^2.3.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mysql2": "^3.1.2",
+    "process-env": "^2.0.2",
+    "razorpay": "^2.8.4",
+    "sequelize": "^6.28.0",
+    "sib-api-v3-sdk": "^8.5.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "uuid": "^9.0.0"
   }
 }
